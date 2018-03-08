@@ -1,0 +1,36 @@
+@media (max-width: 575px){
+
+
+.navbar
+{
+    background-color: rgb(4, 4, 27);
+}
+
+.navbar-brand
+{
+    color: orangered;
+}
+
+.form-inline
+{
+    width:200px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: orangered;
+    opacity: 1; /* Firefox */
+    background-color: rgb(53, 51, 51);
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: orangered;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: orangered;
+}
+
+input{
+    margin: 5px 0 10px 0;
+}
+}
